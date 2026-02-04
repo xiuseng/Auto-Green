@@ -1,51 +1,40 @@
-# auto-green
+# 🚀 GitHub Premium Services | 账号与推广服务
 
-[![Build Status](https://github.com/justjavac/auto-green/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/auto-green/actions)
+Professional GitHub account solutions and repository optimization services.
+专业的 GitHub 账号解决方案与仓库优化服务。
 
-自动保持 GitHub 提交状态常绿。
+---
 
-> a commit a day keeps your girlfriend away.
+### 🛒 Contact & Purchase | 购买地址
+**Official Website:** [yybuu.com](https://yybuu.com)
+> **Notice:** 24-hour automatic delivery. Each account comes with active repository contributions.
+> **提示:** 24小时自动发货 - GitHub 有库，每天有提交，保证账号活跃度。
 
-## 原理
+---
 
-使用 GitHub Actions 的定时任务功能，每隔一段时间自动执行 `git commit`，提交信息为 "a commit a day keeps your girlfriend away"，灵感来自知乎问题[在 GitHub 上保持 365 天全绿是怎样一种体验？](https://www.zhihu.com/question/34043434/answer/57826281)下某匿名用户的回答：
+### 🛠 Our Services | 服务项目
 
-> 曾经保持了 200 多天全绿，但是冷落了女朋友，一直绿到现在。
+| Category | Description | 功能描述 |
+| :--- | :--- | :--- |
+| **Wholesale** | GitHub Accounts Wholesale | **Github 账号批发** |
+| **Active** | Active GitHub Accounts | **Github 活跃账号** |
+| **Aged** | Aged GitHub Accounts | **Github 老号** |
+| **Growth** | Star Boosting Services | **Github 刷星星** |
+| **Trade** | Buy & Sell Accounts | **Github 账号买卖** |
 
-有关 Github Action 的原理，可查看官方文档 [Github Action 简介](https://docs.github.com/cn/actions/learn-github-actions/introduction-to-github-actions)
+---
 
-## 使用
+### 📈 Why Choose Us | 为什么选择我们
+* **Automation**: Instant delivery after payment. (24小时自动发货)
+* **High Quality**: Accounts with daily contribution heatmaps. (带有每日贡献绿墙)
+* **Security**: Aged and stable accounts for various development needs. (稳定老号，满足多种开发需求)
 
-- 点右上角 **Use this template** 按钮复制本 GitHub 仓库，**:warning: 千万不要 Fork，因为 fork 项目的动态并不会让你变绿 :warning:**
-- 修改 [ci.yml 文件的第 7、8 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L7-L8) 去掉前面的 `#` 号
-- 修改 [ci.yml 文件的第 23 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L23) 为自己的 GitHub 邮箱账号
-- (可选) 你可以通过修改 [ci.yml 文件的第 8 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L8)来调整频率
+---
 
-计划任务语法有 5 个字段，中间用空格分隔，每个字段代表一个时间单位。
+### 🔗 Quick Links
+- [Purchase Link](http://yybuu.com)
+- [Support & FAQ](http://yybuu.com)
 
-```plain
-┌───────────── 分钟 (0 - 59)
-│ ┌───────────── 小时 (0 - 23)
-│ │ ┌───────────── 日 (1 - 31)
-│ │ │ ┌───────────── 月 (1 - 12 或 JAN-DEC)
-│ │ │ │ ┌───────────── 星期 (0 - 6 或 SUN-SAT)
-│ │ │ │ │
-│ │ │ │ │
-│ │ │ │ │
-* * * * *
-```
+---
 
-每个时间字段的含义：
-
-|符号   | 描述        | 举例                                        |
-| ----- | -----------| -------------------------------------------|
-| `*`   | 任意值      | `* * * * *` 每天每小时每分钟                  |
-| `,`   | 值分隔符    | `1,3,4,7 * * * *` 每小时的 1 3 4 7 分钟       |
-| `-`   | 范围       | `1-6 * * * *` 每小时的 1-6 分钟               |
-| `/`   | 每         | `*/15 * * * *` 每隔 15 分钟                  |
-
-**注**：由于 GitHub Actions 的限制，如果设置为 `* * * * *` 实际的执行频率为每 5 分执行一次。
-
-## License
-
-[auto-green](https://github.com/justjavac/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+*© 2026 GitHub Service Provider. All rights reserved.*
